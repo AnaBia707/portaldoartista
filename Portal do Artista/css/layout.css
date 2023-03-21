@@ -1,0 +1,112 @@
+/*pagina*/
+
+body {
+    font-family: 'Alumni Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section#top {
+    background-color: black;
+    height: 36.5em;
+}
+
+/*menu*/
+
+.menu {
+    padding: 500px;
+    text-align: right;
+    position: fixed;
+    bottom: 20%;
+    font-family: 'Anton', sans-serif;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 35px;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #ffeb01;
+}
+
+/*info*/
+
+h2 {
+    margin-top: 13%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: white;
+    margin-left: 2em;
+}
+
+p {
+    font-size: 23px;
+    color: white;
+    margin-top: -1em;
+    margin-left: 3.4em;
+}
+
+#botao {
+    background-color: #ffeb01;
+    width: 10%;
+    height: 3em;
+    margin-left: 12.5em;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*imagem da logo*/
+
+#logo {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+h3 {
+    color: white;
+    margin-left: 57px;
+    margin-top: -3px;
+    font-size: 1.2em;
+}
+/*imagem da banda*/
+
+#banda {
+    margin-left: 52em;
+    margin-top: -18em;
+}
+
+/*cards*/
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 320px;
+    transition: all 0.3s ease-out;
+}
+
+  #imageshow1 {
+    margin-top: 1%;
+}
+
+.row h2 {
+    color: black;
+    font-size: 100%;
+    margin-top: 3%;
+}
