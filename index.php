@@ -34,7 +34,7 @@
                 <p>Aqui você encontra informações sobre a banda, redes sociais
                 <br>
                 e datas das turnês pelo Brasil. Entre em contato agora e nos contrate!</p>
-                    <input type="submit" value="CONTRATE AGORA!" id="botao" onclick="location.href='formulario/formulario.php'"/>
+                    <a href="formulario.php"><button id="botao">CONTRATE AGORA!</button></a>
             </div>
             <div clas="">
                 <img src="imagens/logodabanda2.jpg" id="banda">

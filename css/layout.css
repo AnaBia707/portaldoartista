@@ -64,6 +64,11 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+#info a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /*imagem da logo*/
 
 #logo {
